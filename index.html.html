@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banka Rajesh - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); color: #f0f0f0; scroll-behavior: smooth; }
+    nav { position: fixed; top: 0; width: 100%; background: #111; padding: 1rem; display: flex; justify-content: space-around; flex-wrap: wrap; z-index: 1000; }
+    nav a { color: #f0f0f0; text-decoration: none; font-weight: 600; transition: 0.3s; font-size: 1rem; }
+    nav a:hover { color: #00f7ff; }
+    section { padding: 120px 8% 80px; min-height: 100vh; }
+    .hero { display: flex; align-items: center; justify-content: space-between; padding: 6rem 8%; flex-wrap: wrap; }
+    .hero-text { max-width: 600px; display: flex; flex-direction: column; gap: 1rem; }
+    .circle-placeholder { width: 300px; height: 300px; border-radius: 50%; overflow: hidden; border: 6px dashed #f0f0f0; margin-top: 20px; display: flex; align-items: center; justify-content: center; }
+    .circle-placeholder img { width: 100%; height: 100%; object-fit: cover; }
+    .small-title, .big-title, .sub-title { transition: 0.4s; cursor: pointer; }
+    .small-title { font-size: 2rem; color: #00f7ff; font-weight: 800; }
+    .big-title { font-size: 3rem; font-weight: 800; color: #ffffff; }
+    .sub-title { font-size: 1.2rem; color: #cccccc; max-width: 450px; }
+    .typing { border-right: .1em solid #00f7ff; white-space: nowrap; overflow: hidden; animation: typing 3s steps(20, end) forwards, blink 0.75s step-end infinite; }
+    @keyframes typing { from { width: 0 } to { width: 100% } }
+    @keyframes blink { 50% { border-color: transparent } }
+    a.contact-button { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.4rem; border: 2px solid #00f7ff; border-radius: 50px; color: #00f7ff; text-decoration: none; font-weight: 600; font-size: 1rem; transition: 0.3s; }
+    a.contact-button:hover { background-color: #00f7ff; color: #1a1a1a; }
+    h2 { color: #00f7ff; font-size: 2rem; margin-bottom: 1rem; }
+    ul { list-style-type: none; padding-left: 0; }
+    li { margin-bottom: 10px; }
+    .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+    .project-card { background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 10px; transition: 0.3s; }
+    .project-card:hover { transform: translateY(-10px); background: rgba(0, 247, 255, 0.1); }
+    .social-icons { display: flex; justify-content: space-around; margin-top: 2rem; align-items: center; flex-wrap: wrap; }
+    .social-icons div { text-align: center; margin: 10px; }
+    .social-icons a { font-size: 2.5rem; color: #f0f0f0; transition: 0.3s; }
+    .social-icons a:hover { color: #00f7ff; }
+    footer { text-align: center; padding: 2rem; background: #111; color: #aaa; margin-top: 4rem; }
+    @media(max-width: 768px) { .hero { flex-direction: column; text-align: center; } .projects-grid { grid-template-columns: 1fr; } nav { justify-content: center; gap: 1rem; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home" data-aos="fade-up">
+  <div class="hero-text">
+    <div class="small-title">UI/UX Developer</div>
+    <div class="small-title">Hey 👋</div>
+    <div class="big-title typing">I am Rajesh</div>
+    <div class="sub-title">Designing beautiful, functional experiences blending creativity and precision.</div>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bankarajesh625@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-button">Contact Me →</a>
+  </div>
+  <div class="circle-placeholder" data-aos="zoom-in">
+    <img src="image.jpeg" alt="Profile Photo" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+</section>
+
+<section id="about" data-aos="fade-right">
+  <h2>About Me</h2>
+  <p>I am a dedicated and enthusiastic Mechanical Engineering graduate from Velagapudi Ramakrishna Siddhartha Engineering College (VRSEC), Vijayawada, with a strong passion for technology and innovation. Throughout my academic journey, I cultivated a keen interest in software development, recognizing the critical role that technology plays across all industries, including engineering.</p>
+  <p>Driven by curiosity and a desire to diversify my skill set, I proactively learned multiple programming languages such as Java, Python, and C, building a solid foundation in both object-oriented and procedural programming paradigms. I also developed proficiency in database management systems, particularly MySQL, enabling me to design and manage efficient and secure data solutions.</p>
+  <p>In addition to backend development skills, I explored the creative side of technology by diving into UI/UX design. I focused on creating user-centered designs that prioritize usability, accessibility, and seamless interaction. This experience allowed me to blend technical problem-solving abilities with aesthetic design principles, giving me a well-rounded perspective on software development.</p>
+  <p>Throughout my learning journey, I have undertaken various projects, practiced real-world problem-solving, and continuously updated myself with new tools and technologies. My multidisciplinary background gives me a unique edge, allowing me to approach challenges from both an engineering and software development perspective.</p>
+  <p>I am passionate about continuous learning, eager to work on innovative projects, and committed to contributing effectively to any team or organization. With a strong foundation in both engineering principles and software technologies, I am excited to build solutions that make a meaningful impact.</p>
+</section>
+
+<section id="skills" data-aos="fade-left">
+  <h2>Skills</h2>
+  <ul>
+    <li><strong>Python:</strong> Built console-based games and automation tools, applying core programming concepts and problem-solving techniques.</li>
+    <li><strong>Java:</strong> Developed OOP-based desktop applications, focusing on modular code, inheritance, and GUI development.</li>
+    <li><strong>C Programming:</strong> Strengthened core programming and logic-building skills through system-level and algorithmic projects.</li>
+    <li><strong>HTML/CSS:</strong> Designed responsive, mobile-friendly web pages using modern HTML5, CSS3, flexbox, and grid layouts.</li>
+    <li><strong>MySQL:</strong> Managed relational databases by designing schemas, writing SQL queries, and ensuring data integrity.</li>
+  </ul>
+</section>
+
+<section id="experience" data-aos="fade-right">
+  <h2>Experience</h2>
+  <ul>
+    <li>Managed and maintained the complete attendance system for both students and staff using MCB (MyClassboard) software, ensuring accurate daily tracking and reporting.</li>
+    <li>Collected, organized, and prepared detailed performance sheets for students, providing valuable academic insights and assisting in progress tracking and analysis.</li>
+    <li>Handled the enrollment of student data into the UDISE (Unified District Information System for Education) portal, ensuring compliance with educational data reporting standards and improving the accuracy of institutional records.</li>
+    <li>Set up and maintained face recognition access for students, facilitating secure and efficient entry systems within the campus environment.</li>
+    <li>Ensured data integrity and regularly updated student and staff information, contributing to a well-organized and smoothly functioning academic administrative system.</li>
+    <li>Provided technical support to staff members for MCB software usage, resolving user issues, and conducting basic training sessions for effective software adoption.</li>
+    <li>Collaborated with academic and administrative departments to streamline information flow and supported management in generating custom reports for decision-making.</li>
+    <li>Maintained strict confidentiality and security of all academic and personal records handled through the software.</li>
+  </ul>
+</section>
+
+<section id="projects" data-aos="fade-up">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card" data-aos="fade-right">
+      <div class="project-title">Tic Tac Toe Game (Python)</div>
+      <div class="project-description">
+        Built a fully functional two-player console-based Tic Tac Toe game using Python. Focused on loops, conditionals, lists, input handling, and win/draw logic. Designed a dynamic board and ensured clean user experience through data validation and seamless replay options.
+      </div>
+    </div>
+    <div class="project-card" data-aos="fade-left">
+      <div class="project-title">BlackJack Card Game (Python, OOP)</div>
+      <div class="project-description">
+        Developed a text-based BlackJack game using Python with complete OOP design (Card, Deck, Hand classes). Implemented player vs dealer logic, betting system, automatic dealer rules, and money management. Focused on modularity, randomization, and user input/output handling.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" data-aos="fade-up">
+  <h2>Contact Me</h2>
+  <div class="social-icons">
+    <div>
+      <a href="https://github.com/RajeshChikky/Rajesh.git" target="_blank"><i class="fab fa-github"></i></a>
+      <div>GitHub</div>
+    </div>
+    <div>
+      <a href="https://www.linkedin.com/in/rajesh-banka-604638361" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <div>LinkedIn</div>
+    </div>
+    <div>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bankarajesh625@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
+      <div>Mail</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2025 Banka Rajesh. All rights reserved.
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
+
+</body>
+</html>
